@@ -69,15 +69,15 @@ This project demonstrates authentication using login/register endpoints, ensurin
 ## Example Workflow:
 
 - **1)Register**
-- Create a new user account by sending a POST request to /register with the required details.
-- If the email already exists, an error message will be displayed.
+  - Create a new user account by sending a POST request to /register with the required details.
+  - If the email already exists, an error message will be displayed.
 
 - **2)Login**
-- Authenticate by sending a POST request to /login with your email and password.
-- Upon successful authentication, a token (cookie) will be set in the browser.
-  
+  - Authenticate by sending a POST request to /login with your email and password.
+  - Upon successful authentication, a token (cookie) will be set in the browser.
+    
  - **3)Access Protected Routes:**
- - Home: After logging in, you can access the /home endpoint. The server will check for the presence of a valid token (cookie).
- - If you attempt to access /home without a valid token, you will be denied access.
+   - Home: After logging in, you can access the /home endpoint. The server will check for the presence of a valid token (cookie).
+   - If you attempt to access /home without a valid token, you will be denied access.
  
   
