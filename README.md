@@ -21,4 +21,32 @@ This project demonstrates authentication using login/register endpoints, ensurin
 - Express.js
 - MongoDB
 - EJS (Embedded JavaScript) templates
+  
+## Usage
 
+- **Register:**
+  - Access `/register` to create a new user account.
+  - Provide `username`, `email`, and `password` in the request.
+  - If the provided email already exists, an appropriate message is rendered using EJS.
+
+  ```plaintext
+  POST /register
+  Body:
+  {
+      "username": "your_username",
+      "email": "your_email@example.com",
+      "password": "your_password"
+  }
+  GET /register
+- **Login:**
+- - Access `/login` to log onto our site.
+  - - Provide `email`, and `password` in the request.
+
+  
+```plaintext
+POST /login
+Body:
+{
+    "email": "your_email@example.com",
+    "password": "your_password"
+}
