@@ -9,7 +9,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Ensured session persistence using cookies.
   
 - **Database:**
-  - Utilized MongoDB as the database management system using mongoose.
+ - Utilized MongoDB as the database management system using mongoose.
 
 - **MVC Architecture:**
   - Organized project structure into Models, Views (using EJS templates), and Controllers.
@@ -27,7 +27,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
 
 
 - **Dashboard:**
- - Access `/` to get indexing page for login or register.
+  - Access `/` to get indexing page for login or register.
   
 - **Register:**
   - Access `/register` to create a new user account.
@@ -44,9 +44,9 @@ This project demonstrates authentication using login/register endpoints, ensurin
   }
   GET /register
 - **Login:**
- - Access `/login` to log onto our site.
- - Provide `email`, and `password` in the request.
- - After succesful logging it will be redirected for home page
+  - Access `/login` to log onto our site.
+  - Provide `email`, and `password` in the request.
+  - After succesful logging it will be redirected for home page
 
   
 ```plaintext
