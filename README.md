@@ -5,11 +5,11 @@ This project demonstrates authentication using login/register endpoints, ensurin
 ## Features
 
 - **Authentication:**
-  - Implemented login and register endpoints using Node.js and Express.
+  - Implemented login and register endpoints using Node.js and Express and jwt.
   - Ensured session persistence using cookies.
   
 - **Database:**
-  - Utilized MongoDB as the database management system using mongoose package.
+  - Utilized MongoDB as the database management system using mongoose.
 
 - **MVC Architecture:**
   - Organized project structure into Models, Views (using EJS templates), and Controllers.
@@ -20,10 +20,15 @@ This project demonstrates authentication using login/register endpoints, ensurin
 - Node.js
 - Express.js
 - MongoDB
+- JWT
 - EJS (Embedded JavaScript) templates
   
 ## Usage
 
+
+- **Dashboard:**
+ - Access `/` to get indexing page for login or register.
+  
 - **Register:**
   - Access `/register` to create a new user account.
   - Provide `username`, `email`, and `password` in the request.
@@ -39,8 +44,9 @@ This project demonstrates authentication using login/register endpoints, ensurin
   }
   GET /register
 - **Login:**
-- - Access `/login` to log onto our site.
-  - - Provide `email`, and `password` in the request.
+ - Access `/login` to log onto our site.
+ - Provide `email`, and `password` in the request.
+ - After succesful logging it will be redirected for home page
 
   
 ```plaintext
@@ -50,3 +56,5 @@ Body:
     "email": "your_email@example.com",
     "password": "your_password"
 }
+
+
