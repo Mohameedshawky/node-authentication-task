@@ -7,6 +7,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
 - **Authentication:**
   - Implemented login and register endpoints using Node.js and Express and jwt.
   - Ensured session persistence using cookies.
+  - Used bcrypt for password hashing to enhance security.
   
 - **Database:**
  - Utilized MongoDB as the database management system using mongoose.
@@ -21,6 +22,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
 - Express.js
 - MongoDB
 - JWT
+- bcrypt (for password hashing)
 - EJS (Embedded JavaScript) templates
   
 ## Usage
@@ -33,6 +35,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Access `/register` to create a new user account.
   - Provide `username`, `email`, and `password` in the request.
   - If the provided email already exists, an appropriate message is rendered using EJS.
+  - Passwords are hashed using bcrypt before being stored in the database.
 
   ```plaintext
   POST /register
