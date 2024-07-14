@@ -10,7 +10,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Used bcrypt for password hashing to enhance security.
   
 - **Database:**
- - Utilized MongoDB as the database management system using mongoose.
+  - Utilized MongoDB as the database management system using mongoose.
 
 - **MVC Architecture:**
   - Organized project structure into Models, Views (using EJS templates), and Controllers.
