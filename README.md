@@ -76,7 +76,8 @@ This project demonstrates authentication using login/register endpoints, ensurin
 - **Home:**
    - Access /home to view protected home content.
    - This endpoint requires a valid token (cookie) which is received upon successful login.
-   - If accessed without a valid token, access will be denied.
+   - If accessed without a valid token, access will be denied:
+![accessDenied](https://github.com/user-attachments/assets/578fccfd-b70b-4426-9a35-8fe313988f19)
   ```plaintext
   GET /home
 
