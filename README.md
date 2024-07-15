@@ -37,6 +37,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
 
 - **Dashboard:**
   - Access `/` to get indexing page for login or register.
+  - ![index](https://github.com/user-attachments/assets/9c806ffd-b80d-4bf6-a649-e73211b7f6a3)
   
 - **Register:**
   - Access `/register` to create a new user account.
