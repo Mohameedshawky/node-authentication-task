@@ -37,7 +37,8 @@ This project demonstrates authentication using login/register endpoints, ensurin
 
 - **Dashboard:**
   - Access `/` to get indexing page for login or register.
-  - ![index](https://github.com/user-attachments/assets/9c806ffd-b80d-4bf6-a649-e73211b7f6a3)
+![index](https://github.com/user-attachments/assets/9c806ffd-b80d-4bf6-a649-e73211b7f6a3)
+  
 
   
 - **Register:**
@@ -45,7 +46,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Provide `username`, `email`, and `password` in the request.
   - If the provided email already exists, an appropriate message is rendered using EJS.
   - Passwords are hashed using bcrypt before being stored in the database.
-  - ![Register](https://github.com/user-attachments/assets/cb90f6ac-0ee1-4cd1-b215-dc19cf9a76ef)
+ ![Register](https://github.com/user-attachments/assets/cb90f6ac-0ee1-4cd1-b215-dc19cf9a76ef)
 
 
   ```plaintext
@@ -61,7 +62,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Access `/login` to log onto our site.
   - Provide `email`, and `password` in the request.
   - After succesful logging it will be redirected for home page
-  - ![Loginjpg](https://github.com/user-attachments/assets/23132fad-4f0d-413f-943b-2c4e254a11c5)
+![Loginjpg](https://github.com/user-attachments/assets/23132fad-4f0d-413f-943b-2c4e254a11c5)
    
   ```plaintext
   POST /login
@@ -95,5 +96,6 @@ This project demonstrates authentication using login/register endpoints, ensurin
  - **3)Access Protected Routes:**
    - Home: After logging in, you can access the /home endpoint. The server will check for the presence of a valid token (cookie).
    - If you attempt to access /home without a valid token, you will be denied access.
+  ![Dashboard](https://github.com/user-attachments/assets/3df76e40-f734-49c5-bc65-371e84560d3e)
  
-  
+
