@@ -27,6 +27,13 @@ This project demonstrates authentication using login/register endpoints, ensurin
   
 ## Usage
 
+- **Installing Dependencies:**
+  - 1) Install the dependencies:
+    ```plaintext
+    npm install
+  -2) Run the project:
+     ```plaintext
+    npm start
 
 - **Dashboard:**
   - Access `/` to get indexing page for login or register.
