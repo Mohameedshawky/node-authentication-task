@@ -61,6 +61,7 @@ This project demonstrates authentication using login/register endpoints, ensurin
   - Access `/login` to log onto our site.
   - Provide `email`, and `password` in the request.
   - After succesful logging it will be redirected for home page
+  - ![Loginjpg](https://github.com/user-attachments/assets/23132fad-4f0d-413f-943b-2c4e254a11c5)
    
   ```plaintext
   POST /login
