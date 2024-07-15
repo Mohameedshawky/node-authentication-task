@@ -28,10 +28,10 @@ This project demonstrates authentication using login/register endpoints, ensurin
 ## Usage
 
 - **Installing Dependencies:**
-  - 1) Install the dependencies:
+  - Install the dependencies:
     ```plaintext
     npm install
-  -2) Run the project:
+  - Run the project:
      ```plaintext
     npm start
 
