@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(morgan('tiny'));
 app.use(express.urlencoded({extended:true}));
 
-const DB = 'mongodb+srv://taskUser:taskUser1234@cluster0.jettpl4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const DB = 'mongodb+srv://taskUser:PASSWORD@cluster0.jettpl4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(DB)
     .then(()=>{
         console.log('connected to mongo');
